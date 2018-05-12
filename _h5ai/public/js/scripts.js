@@ -801,7 +801,7 @@ function(t) {
 	var r = n(2),
 		i = r.dom,
 		o = "body",
-		a = '<div id="topbar">\n            <div id="toolbar"></div>\n            <div id="flowbar"></div>\n            <a id="backlink" href="https://larsjung.de/h5ai/" title="powered by h5ai - https://larsjung.de/h5ai/">\n                <div>powered</div>\n                <div>by h5ai</div>\n            </a>\n        </div>',
+		a = '<div id="topbar">\n            <div id="toolbar"></div>\n            <div id="flowbar"></div>\n            <a id="backlink" href="https://ju5tu5.club" title="powered by Adil - https://ju5tu5.club">\n                <div>powered</div>\n                <div>by Adil</div>\n            </a>\n        </div>',
 		s = '<div id="mainrow">\n            <div id="content"></div>\n        </div>',
 		u = function() {
 			var t = i(o).attr("id", "root").clr().app(a).app(s);
@@ -1264,7 +1264,7 @@ function(t) {
 				r = Object.assign(Object.create(t.prototype), {
 					absHref: e,
 					type: h.getType(e),
-					label: b("/" === e ? f.getDomain() : n.name),
+					label: b("/" === e ? '爱豆云盘' : n.name),
 					time: null,
 					size: null,
 					parent: null,
