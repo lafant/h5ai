@@ -3759,7 +3759,18 @@ function(t) {
 				    autoplay: true,
 				    video: {
 				        url: t.absHref
-				    }
+				    },
+				    screenshot: true,
+	                            preload: 'auto',
+	                            autoplay: true,
+	                            danmaku: {
+                                       id: '<?php e($item['name']);?>',
+                                       api: 'https://api.prprpr.me/dplayer/',
+                                       maximum: 1000,
+                                       user: 'Adil',
+                                       bottom: '15%',
+                                       unlimited: true
+                                       }
 				});
 				console.log(a.item.label);
 				console.log(a);
