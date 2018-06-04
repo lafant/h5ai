@@ -3762,7 +3762,14 @@ function(t) {
 				    },
 				    screenshot: true,
 	                            preload: 'auto',
-	                            autoplay: true
+	                            autoplay: true,
+				    danmaku: {
+                                       id: 'f.getAbsHref()',
+                                       api: 'https://api.prprpr.me/dplayer/',
+                                       maximum: 1000,
+                                       bottom: '15%',
+                                       unlimited: true
+                                       }
 				});
 				console.log(a.item.label);
 				console.log(a);
