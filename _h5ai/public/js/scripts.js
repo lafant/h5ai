@@ -3762,15 +3762,7 @@ function(t) {
 				    },
 				    screenshot: true,
 	                            preload: 'auto',
-	                            autoplay: true,
-	                            danmaku: {
-                                       id: '<?php e($item['name']);?>',
-                                       api: 'https://api.prprpr.me/dplayer/',
-                                       maximum: 1000,
-                                       user: 'Adil',
-                                       bottom: '15%',
-                                       unlimited: true
-                                       }
+	                            autoplay: true
 				});
 				console.log(a.item.label);
 				console.log(a);
