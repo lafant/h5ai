@@ -1,8 +1,8 @@
 <?php
-// auth();
+ auth();
 function auth ()
 {
-        $valid_passwords = array ("user" => "password");
+        $valid_passwords = array ("adil" => "xu11jin24ming");
         $valid_users = array_keys($valid_passwords);
 
         $user = $_SERVER['PHP_AUTH_USER'];
